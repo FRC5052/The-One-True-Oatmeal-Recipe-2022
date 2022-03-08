@@ -19,8 +19,8 @@
 	<Item Name="Target" Type="RT myRIO">
 		<Property Name="alias.name" Type="Str">Target</Property>
 		<Property Name="alias.value" Type="Str">roboRIO-5052-FRC.local</Property>
-		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,Linux;CPU,ARM;DeviceCode,7AAE;</Property>
-		<Property Name="crio.ControllerPID" Type="Str">7AAE</Property>
+		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,Linux;CPU,ARM;DeviceCode,76F2;</Property>
+		<Property Name="crio.ControllerPID" Type="Str">76F2</Property>
 		<Property Name="crio.family" Type="Str">ARMLinux</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
 		<Property Name="host.ResponsivenessCheckPingDelay" Type="UInt">5000</Property>
@@ -485,7 +485,6 @@ AddOutputFilter chunkFilter
 				<Item Name="CTRE_LibraryCall_ErrorHandle.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Error/CTRE_LibraryCall_ErrorHandle.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_UpdateRefNum.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_UpdateRefNum.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_RefNumRegistrySet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_RefNumRegistrySet.vi"/>
-				<Item Name="WPI_CompressorRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorRefNum Registry Set.vi"/>
 				<Item Name="WPI_CAN_CheckVersion.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PCH/WPI_CAN_CheckVersion.vi"/>
 				<Item Name="WPI_Power CAN Device Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Power/WPI_Power CAN Device Type.ctl"/>
 				<Item Name="WPI_CAN_PCHMessageIDs.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PCH/WPI_CAN_PCHMessageIDs.ctl"/>
@@ -519,8 +518,6 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_CompressorRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorRefNum Registry Get.vi"/>
 				<Item Name="WPI_CompressorStop.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorStop.vi"/>
 				<Item Name="WPI_CompressorClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorClose.vi"/>
-				<Item Name="WPI_CompressorGetEnableState.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorGetEnableState.vi"/>
-				<Item Name="WPI_CAN_ConvertVToPSI.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PCH/WPI_CAN_ConvertVToPSI.vi"/>
 				<Item Name="WPI_CAN_Send.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/WPI_CAN_Send.vi"/>
 				<Item Name="Cast to Little Endian Byte Array.vim" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/REV Robotics/REVLib/SubVI/Private/Cast to Little Endian Byte Array.vim"/>
 				<Item Name="Spark MAX Variant Data.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/REV Robotics/REVLib/Typedef/Spark MAX Variant Data.ctl"/>
@@ -587,6 +584,8 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_JoystickTankMapping.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickTankMapping.vi"/>
 				<Item Name="WPI_RobotDriveTankDrive.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveTankDrive.vi"/>
 				<Item Name="Remove Duplicates From 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Remove Duplicates From 1D Array.vim"/>
+				<Item Name="CTRE_Phoenix_VictorSPX_Open.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Victor SPX/CTRE_Phoenix_VictorSPX_Open.vi"/>
+				<Item Name="WPI_CompressorRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorRefNum Registry Set.vi"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
